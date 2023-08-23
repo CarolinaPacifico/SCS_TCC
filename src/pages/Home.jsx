@@ -1,12 +1,17 @@
 //import '../Home.css'
-import NavBar from '../components/NavBar'
-//import NavBar from '../components/NavBar'
+import Header from '../components/header'
+import IntroBg from '../components/intro-home'
+import Quemsomos from '../components/quemsomos'
+import Servicos from '../components/servicos'
 
 function Home() {
 
     return (
       <>
-        <NavBar/>
+        <Header/>
+        <IntroBg/>
+        <Quemsomos/>
+        <Servicos/>
       </>
     )
   }
