@@ -6,7 +6,7 @@ function Servicos() {
 
     return (
         <article className='servicos-bg'>
-            <div className='container'>
+            <div className='servicos container'>
             <div className='conteudo-servicos'>
                 <h1>O que oferecemos</h1>
                 <p>Nossa empresa promete uma gama de cuidados a seus familiares de idade mais avançada</p>
