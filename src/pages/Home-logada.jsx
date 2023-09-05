@@ -1,6 +1,6 @@
 //import '../Home.css'
 import Footer from '../components/footer'
-import Header from '../components/header'
+import HeaderLogado from '../components/header-logado'
 import IntroBg from '../components/intro-home'
 import Profissionais from '../components/profissionais'
 import Quemsomos from '../components/quemsomos'
@@ -10,7 +10,7 @@ function Home() {
 
     return (
       <>
-        <Header/>
+        <HeaderLogado/>
         <IntroBg/>
         <Quemsomos/>
         <Servicos/>
