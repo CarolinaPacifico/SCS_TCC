@@ -127,16 +127,23 @@ header > div {
     align-items: center;
 }
 
-.especializacao-bg{
+.profissionais-bg{
     background-color: #F3F1EA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgb(156, 156, 156);
 }
 
-.capacitacao-bg{
-    background-color: #F3F1EA;
+.profissionais-bg h1 {
+    color: #163062;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bolder;
 }
 
-.dedicacao-bg{
-    background-color: #F3F1EA;
+.profissionais-bg p {
+    color: #30353E;
+    font-size: 1.1rem;
 }
 
 .cards{
@@ -163,10 +170,28 @@ header > div {
     margin-bottom: 60px;
 }
 
-.links-footer{
+.footer {
+    margin-top: 85px    ;
     background-color: #4673CB;
+
+}
+
+.links-footer{
     display: flex;
-    justify-content: space-between;
+
+    align-items: center;
+    gap: 80px;
+    color:#F3F1EA;
+}
+
+.links-footer img{
+    margin-left: 40px;
+}
+
+.navs-footer {
+    display: flex;
+    align-items: top;
+    gap: 80px;
 }
 
 .linha{
@@ -174,3 +199,33 @@ header > div {
     margin-top: 55px;
 }
 
+.sobre-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.siga-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.paginas-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.paginas-footer a{
+    text-decoration: none;
+    color: #fff;
+    gap: 10px;
+}
