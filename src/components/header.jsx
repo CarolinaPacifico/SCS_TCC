@@ -22,7 +22,7 @@ function Header() {
         <div className='login'>
            <a href="/Login">Login</a>
            <div className='cadastro'>
-            <a href="">Cadastre-se</a>
+            <a href="/Cadastro">Cadastre-se</a>
            </div>
         </div>
       </header>

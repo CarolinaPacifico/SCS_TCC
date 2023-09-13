@@ -1,10 +1,10 @@
-
+import CadastroComponente from '../components/cadastro-componente'
 
 function Cadastro() {
 
     return (
       <>
-        
+        <CadastroComponente/>
       </>
     )
   }
