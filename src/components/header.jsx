@@ -20,7 +20,7 @@ function Header() {
           </nav>
         </div>
         <div className='login'>
-           <a href="">Login</a>
+           <a href="/Login">Login</a>
            <div className='cadastro'>
             <a href="">Cadastre-se</a>
            </div>
