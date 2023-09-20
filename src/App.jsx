@@ -6,6 +6,7 @@ import Diferencial from './pages/Home';
 import Contato from './pages/Home';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+import Prestadores from './pages/prestadores';
 
 //import './App.css'
 
@@ -16,13 +17,14 @@ function App() {
       <div>
         <BrowserRouter>
         <Routes>
-        <Route path="/Login" element={<Login/>}/>
-        <Route path="/Cadastro" element={<Cadastro/>}/>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/" element={<QuemSomos/>}/>
-        <Route path="/" element={<Servicos/>}/>
-        <Route path="/" element={<Diferencial/>}/>
-        <Route path="/" element={<Contato/>}/>
+          <Route path="/Login" element={<Login/>}/>
+          <Route path="/Cadastro" element={<Cadastro/>}/>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<QuemSomos/>}/>
+          <Route path="/" element={<Servicos/>}/>
+          <Route path="/" element={<Diferencial/>}/>
+          <Route path="/" element={<Contato/>}/>
+          <Route path="/prestadores" element={<Prestadores/>}/>
         </Routes>
         </BrowserRouter>
       </div>
