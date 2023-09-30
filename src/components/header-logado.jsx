@@ -20,7 +20,7 @@ function HeaderLogado() {
           </nav>
         </div>
         <div className='perfil-btn'>
-           <a href="">Perfil</a>
+           <a href="/perfil">Perfil</a>
            </div>
       </header>
     )

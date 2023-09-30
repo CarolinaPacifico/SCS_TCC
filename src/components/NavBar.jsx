@@ -26,8 +26,8 @@ function NavBar() {
         </div>
 
         <div className="loginbtn">
-                <Link href="/Login">Login</Link>
-                <Link href="/Cadastro">Cadastre-se</Link> 
+                <Link href="/perfil">Perfil</Link>
+                 
         </div>
         </nav>
 

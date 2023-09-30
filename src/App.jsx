@@ -7,6 +7,8 @@ import Contato from './pages/Home';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Prestadores from './pages/prestadores';
+import PrestadoresLog from './pages/prestadores-logada'
+import Perfil from './pages/perfil'
 
 //import './App.css'
 
@@ -25,6 +27,8 @@ function App() {
           <Route path="/" element={<Diferencial/>}/>
           <Route path="/" element={<Contato/>}/>
           <Route path="/prestadores" element={<Prestadores/>}/>
+          <Route path="/prestadores2" element={<PrestadoresLog/>}/>
+          <Route path="/perfil" element={<Perfil/>}/>
         </Routes>
         </BrowserRouter>
       </div>

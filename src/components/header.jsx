@@ -11,9 +11,9 @@ function Header() {
           <img src={Logo} alt="" />
           <nav>
             <ul className='navbar'>
-              <li><a href="">Home</a></li>
-              <li><a href="">Quem Somos</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="">Serviços</a></li>
+              <li><a href="">Quem Somos</a></li>
               <li><a href="">Diferencial</a></li>
               <li><a href="">Contato</a></li>
             </ul>
